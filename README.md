@@ -32,11 +32,14 @@ src/
 ```
 
 
+
 ---
 
 ## ⚙️ Features
 - Create Student
 - Retrieve Students
+- Update Student
+- Delete Student
 - Store data in MySQL database
 - RESTful endpoints tested using Postman
 
@@ -69,16 +72,34 @@ src/
 
 ---
 
-## Postman Outputs
+## 📮 Postman Outputs
 
-### GET Request
+### 🔹 GET Request
 <p align="center">
   <img src="https://github.com/user-attachments/assets/8855a733-134d-416a-9500-70dd4eb71a44" width="700"/>
 </p>
 
-### POST Request
+### 🔹 POST Request
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/883e796a-a73e-4452-a995-e1a71deee864" width="700"/>
+  <img src="https://github.com/user-attachments/assets/0a2d6f10-18c9-4006-9611-f9d063da816c" width="700"/>
+</p>
+
+### 🔹 PUT Request
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8406e84-f19f-4c7a-be4e-93df9c076c1c" width="700"/>
+</p>
+
+### 🔹 DELETE Request
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84b6f53d-bd63-4fc9-b969-2f9c71ca192f" width="700"/>
+</p>
+
+
+---
+
+## ⚙️ Spring Boot Initialization
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/185dd038-ecbb-40a7-b312-bcf4ad375f69" width="900"/>
 </p>
 
 ---
@@ -89,10 +110,11 @@ Data was correctly stored and retrieved from the MySQL database, confirming prop
 
 ---
 
-## Conclusion
+## 📌 Conclusion
 This experiment helped in understanding:
 - Spring Boot project setup using Spring Initializer
 - REST API development
+- CRUD operations (Create, Read, Update, Delete)
 - Database integration using JPA
 - Testing APIs using Postman
 
